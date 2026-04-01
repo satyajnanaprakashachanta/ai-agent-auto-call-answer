@@ -1,0 +1,16 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/ai_call_agent
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.open-in-view=false
+
+groq.api.key=your_groq_key
+groq.base.url=https://api.groq.com/openai/v1
+groq.model=llama-3.3-70b-versatile
+
+twilio.account.sid=your_twilio_sid
+twilio.auth.token=your_twilio_auth_token
+twilio.phone.number=your_twilio_number
+your.phone.number=your_personal_number
+
+cloudflare.tunnel.url=https://your-tunnel.trycloudflare.com
